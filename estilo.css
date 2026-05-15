@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.textonav{
+    font-size: x-large;
+    padding: 20px;
+    margin: 0;
+    font-weight: bolder;
+    color: white;
+}
+
+img{
+    width: 4.50vw;
+}

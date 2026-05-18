@@ -50,7 +50,7 @@ header{
   display: flex;
   flex-direction: row;
   gap: 10px;
-  width:60%;
+  width:65%;
 }
 
 .img-grande {
@@ -63,7 +63,7 @@ header{
 
 .card{
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 
 .legenda{
@@ -105,5 +105,13 @@ header{
   height: 200px;
   object-fit: cover;
   border-radius: 12px;
+}
+
+.duas-imagens .card{
+  width: 50%;
+}
+
+.duas-imagens .card .img-pequena{
+  width: 100%;
 }
 /* Fim do conteúdo */

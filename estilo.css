@@ -16,13 +16,13 @@ header{
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding: 20px;
+    padding: 1.25rem;
     justify-content: space-around;
 }
 
 .textonav{
     font-size: x-large;
-    padding: 20px;
+    padding: 1.25rem;
     margin: 0;
     font-weight: bolder;
     color: white;
@@ -49,15 +49,15 @@ header{
 .grade {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  width:65%;
+  gap: 0.625rem;
+  width: 65%;
 }
 
 .img-grande {
   width: 100%;
-  height: 480px;
+  height: 30rem;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   object-position: top;
 }
 
@@ -68,43 +68,40 @@ header{
 
 .legenda{
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 0.625rem;
+    left: 0.625rem;
     color: white;
-    padding: 4px 10px;
-    border-radius: 6px;
-    font-size: 28px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+    padding: 0.25rem 0.625rem;
+    border-radius: 0.375rem;
+    font-size: 1.75rem;
+    text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, .8);
 }
 
 .coluna-direita {
   display: flex;
-  flex-direction: column; 
-  gap: 10px;
+  flex-direction: column;
+  gap: 0.625rem;
   width: 100%;
 }
-
 
 .img-media {
   width: 100%;
-  height: 270px;
+  height: 16.875rem;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
-
 
 .duas-imagens {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.625rem;
 }
-
 
 .img-pequena {
   width: 50%;
-  height: 200px;
+  height: 12.5rem;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 
 .duas-imagens .card{
@@ -113,5 +110,38 @@ header{
 
 .duas-imagens .card .img-pequena{
   width: 100%;
+}
+
+.linha-divisoria{
+  border: 0;
+  border-top: 0.125rem solid #ccc;
+  width: 80%;
+  margin: 1.25rem auto;
+}
+
+.feed-post{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.1% 0.1% 0.1% 10%;
+}
+
+.feed-img{
+  border-radius: 2%;
+  width: 15%;
+  flex-shrink: 0;
+}
+
+.feed-texto{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: -0.2rem;
+}
+
+.feed-legenda{
+  font-size: 0.85rem;
+  color: gray;
+  padding: 0.1% 15% 0.1% 0.1%;
 }
 /* Fim do conteúdo */

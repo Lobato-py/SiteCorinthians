@@ -150,6 +150,14 @@ header{
 }
 /* Fim do conteúdo */
 
+/* ultimosjogos */
+
+.ultimosjogos{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
 /* Footer */
 
 footer{

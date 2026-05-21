@@ -10,7 +10,11 @@
 /* Começo do header */
 header{
     background-color: black;
-}
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+} 
 
 .navegacao{
     display: flex;
@@ -145,3 +149,11 @@ header{
   padding: 0.1% 15% 0.1% 0.1%;
 }
 /* Fim do conteúdo */
+
+/* Footer */
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 1.25rem;
+}

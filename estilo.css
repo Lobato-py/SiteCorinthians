@@ -127,7 +127,7 @@ header{
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  padding: 0.1% 0.1% 0.1% 10%;
+  padding: 0.1% 10% 0.1% 10%;
 }
 
 .feed-img{

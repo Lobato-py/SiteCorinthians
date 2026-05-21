@@ -20,7 +20,7 @@ main{
 /* Começo do header */
 header{
     background-color: black;
-    position: sticky;
+    position: sticky; /* ACOMPANHA SCROLL DA PÁGINA */
     top: 0;
     left: 0;
     z-index: 1000;
@@ -161,6 +161,26 @@ header{
 /* Fim do conteúdo */
 
 /* ultimosjogos */
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 22rem;
+}
+
+.form-titulo {
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+}
+
+.form-subtitulo {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
 
 .ultimosjogos{
   display: flex;
@@ -191,6 +211,86 @@ header{
   background-color: black;
   color: white;
 }
+
+/* Fim do ultimos jogos */
+
+/* jogueconosco */
+
+.main-formulario {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 0.9375rem;
+    width: 100%;
+    max-width: 22rem;
+    color: white;
+}
+
+fieldset {
+    border: 0.125rem solid white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.inputbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 0.0625rem solid white;
+    outline: none;
+    color: white;
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+    padding: 0.2rem 0;
+    width: 100%;
+}
+
+.grupo-radio p {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.radio-opcoes {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+#submit {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    background-color: white;
+    color: rgb(53, 6, 53);
+    border: none;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#submit:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+/* Fim do jogueconosco */
 
 /* Footer */
 

@@ -27,7 +27,67 @@
             </div>
         </nav>
     </header>
+    <body>
+        <main class="main-formulario">
+            <div class="container-formulario">
+                <h1 class="form-titulo"><strong>Formulário</strong></h1>
+                <p class="form-subtitulo">Faça sua inscrição para ficar por dentro de todas as notícias do timão!</p>
+                <div class="box">
+                    <form action="">
+                        <fieldset>
+                            <legend><strong>Jogue Conosco!</strong></legend>
 
+                            <div class="inputbox">
+                                <input type="text" name="nome" id="nome" class="inputUser" required>
+                                <label for="nome">Nome completo</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="email" name="email" id="email" class="inputUser" required>
+                                <label for="email">Email</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                                <label for="telefone">Telefone</label>
+                            </div>
+
+                            <div class="grupo-radio">
+                                <p>Sexo:</p>
+                                <div class="radio-opcoes">
+                                    <label><input type="radio" name="genero" value="feminino" required> Feminino</label>
+                                    <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                                    <label><input type="radio" name="genero" value="outro"> Outro</label>
+                                </div>
+                            </div>
+
+                            <div class="inputbox">
+                                <label for="data_nascimento" class="label-topo">Data de Nascimento</label>
+                                <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                                <label for="cidade">Cidade</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="text" name="estado" id="estado" class="inputUser" required>
+                                <label for="estado">Estado</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                                <label for="endereco">Endereço</label>
+                            </div>
+
+                            <input type="submit" id="submit" value="Enviar">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
     <footer>
         <div class="rodape">
             <div id="copy">

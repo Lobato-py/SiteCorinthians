@@ -24,6 +24,7 @@ header{
     top: 0;
     left: 0;
     z-index: 1000;
+    height: 9rem;
 } 
 
 .navegacao{
@@ -49,7 +50,7 @@ header{
 }
 
 #Escudo{
-    width: 4.50vw;
+    width: 4.6vw;
 }
 /* Fim do header */
 

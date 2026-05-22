@@ -292,6 +292,68 @@ fieldset {
 }
 /* Fim do jogueconosco */
 
+/* Começo do camisas */
+
+.feed-camisas{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+#titulocamisas{
+  text-align: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.legendacamisas{
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.descricaocamisa{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+ol{
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+li{
+  font-size: 2rem;
+}
+
+.impares:hover{
+    color:rgb(254, 0, 0);
+    transition: 1.5s;
+    cursor: pointer;
+    line-height: 1.6;
+    padding: 0.6em 1.2em;
+    text-align: center;
+}
+
+.pares:hover{
+    color:rgb(110, 13, 110);
+    transition: 1.5s;
+    cursor: pointer;
+    line-height: 1.6;
+    padding: 0.6em 1.2em;
+    text-align: center;
+}
+
+.imagens-camisa{
+  width: 15%;
+  margin-bottom: 5rem;
+}
+
+/* fim do camisas */
+
 /* Footer */
 
 footer{
